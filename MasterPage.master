@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Assignment 2</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <form id="form1" runat="server">
+    <div id="wrapper">
+        <header>
+            <h1>Web Design Principals</h1>
+        </header>
+        <nav>
+            <asp:Menu ID="mainNav"
+                runat="server" 
+                DataSourceID="SiteMapDataSource1"
+                CssClass="mainNav"
+                IncludeStyleBlock="true" />        
+        </nav>
+        <main>
+
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       </asp:ContentPlaceHolder>
+            
+        </main>
+        <footer>
+            <p>ASP.NET, 4/17/2017, Bill Adams</p>
+        </footer>
+    </div>
+    </form>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+</body>
+</html>
