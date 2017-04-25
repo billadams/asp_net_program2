@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
     <siteMapNode url="*" title="Home"  description="Top of site">
-      <siteMapNode url="~\default.aspx" title="Home"  description="Welcome to the home page" />
-      <siteMapNode url="~\goodsites.aspx" title="Good Sites"  description="Examples of good websites" />
-      <siteMapNode url="~\badsites.aspx" title="Bad Sites"  description="Examples of bad websites" />
+      <siteMapNode url="~\Default.aspx" title="Home"  description="Welcome to the home page" />
+      <siteMapNode url="~\GoodSites.aspx" title="Good Sites"  description="Examples of good websites" />
+      <siteMapNode url="~\BadSites.aspx" title="Bad Sites"  description="Examples of bad websites" />
+      <siteMapNode url="~\Newsletter.aspx" title="Newsletter"  description="Sign up for our newsletter" />
     </siteMapNode>
 </siteMap>

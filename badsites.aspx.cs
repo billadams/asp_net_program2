@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class ContactUs_Contact : System.Web.UI.Page
+public partial class BadSites : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
